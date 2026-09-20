@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.env.local
+backend/.env
+frontend/.env
+
+# Databases and storage
+*.db
+*.sqlite
+*.sqlite3
+backend/elearning.db
+backend/chroma_db/
+chroma_db/
+backend/uploads/
+uploads/
+
+# Build artifacts and caches
+dist/
+frontend/dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
